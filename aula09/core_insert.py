@@ -9,6 +9,5 @@ ins = user_table.insert()
 con.execute(ins, [
     {'nome': 'João', 'idade': 38, 'senha': 'senha123'},
     {'nome': 'Maria', 'idade': 45, 'senha': 'senha1234'},
-    {'nome': 'Gustavo', 'idade': 28, 'senha': 'senha12345'},
-    
+    {'nome': 'Gustavo', 'idade': 28, 'senha': 'senha12345'},   
 ])
